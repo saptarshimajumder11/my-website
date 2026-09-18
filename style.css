@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background:rgb(3, 7, 53);
+    color:rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    padding:20px 20%;
+    border-radius:10px;
+    background:rgb(4, 14, 63);
+    border:3px solid;
+    border-color:rgb(21, 21, 129);
+}
+nav{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    font-size:20px;
+    font-weight:bold;
+}
+main{
+    padding:60px 8%;
+    margin:12px;
+    border-radius:8px;
+    border:3px solid;
+    border-color:rgba(21, 21, 129,0.85);
+    backdrop-filter: blur(0.50);
+   
+
+}
+section{
+    min-height:60px;
+    padding:60px 0;
+}
+h1{
+    font-size:64px;
+    margin:20px;
+}
+h2{
+    font-size:45px;
+    margin:25px;
+}
+p{
+    color:white;
+    font-size:28px;
+}
+a{
+    font-size:29px;
+    color:rgb(80, 80, 227);
+   
+}
+
+ #projects{
+   text-align:center;
+   padding:8px 8%;
+    border:3px solid;
+    border-radius:8px;
+    margin:20px;
+    border-color:rgba(21, 21, 129,0.85);
+ }
+ #projects h2{
+    text-align:left;
+    margin:25px;
+ }
+ #projects h1{
+    font-size:67px;
+    margin:28px;
+ }
+ #projects p{
+    font-size:28px;
+
+ }
+
+  #building{
+   text-align:center;
+   padding:8px 8%;
+    border:3px solid;
+    border-radius:8px;
+    margin:20px;
+    border-color:rgba(21, 21, 129,0.85);
+ }
+ #building h2{
+    text-align:left;
+    margin:25px;
+ }
+ #building h1{
+    font-size:67px;
+    margin:28px;
+ }
+ #building p{
+    font-size:28px;
+
+ }
+ #hobby{
+    text-align:left;
+    padding:30px 20% ;
+    border:3px solid;
+    border-radius:8px;
+    margin:20px;
+    border-color:rgba(21, 21, 129,0.85);
+ }
+ #hobby h1{
+    font-size:70px;
+    margin:28px;
+    
+ }
+ #hobby p{
+    font-size:32px;
+    margin:25px;
+ }
+ 
